@@ -1,0 +1,1085 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(4, 11, 50, 0.951);
+}
+.mydiv{
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    margin: 10% auto;
+    border: 0px solid red;
+    width: 80%;
+    height: 70vh;
+    padding: 20px;
+}
+
+.myfirst{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border: 0px solid yellow;
+    width: 25%;
+    height: 64vh;
+    /*
+    background-color: rgb(10, 24, 49);
+    */
+    background-color: rgb(6, 43, 94);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+   
+}
+.myfirst .div1{
+    
+    height: 65%;
+    border: 0px solid green;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  
+    
+    background-color: rgb(115, 22, 221);
+    padding: 30px;
+    display: flex;
+   flex-direction: column;
+  
+
+  
+}
+
+
+.myfirst .div2{
+    /*
+    background-color: rgb(10, 24, 49);
+*/  
+background-color: rgb(6, 43, 94);
+    border: 0px solid green;
+    height: 35%;
+    padding: 30px;
+    
+    color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+    /*
+    border-top: 0px solid green;
+  */
+}
+
+.mysecond{
+    border: 0px solid green;
+    width: 75%;
+    height: 64vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 0px solid blue;
+    height: 50%;
+    gap: 12px;
+}
+
+.line1 .divx, .line1 .divy, .line1 .divz {
+    border: 0px solid blue;
+    width: 33.33%;
+    
+}
+
+.divx{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(191, 157, 143);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.divx .item1{
+    height: 20%;
+    background-color: rgb(191, 157, 143);
+    border: 0px solid yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.myimage{
+    background-image: url(./images/icon-work.svg);
+    background-repeat: no-repeat;
+   background-position: 90% 10%;;
+}
+.divx .item2{
+    height: 80%;
+    border: 0px solid green;
+   background-color: rgb(6, 43, 94);
+   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+
+
+
+
+.divy{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(143, 184, 191);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.divy .item3{
+    height: 20%;
+    background-color: rgb(143, 184, 191);
+    border: 0px solid yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.myimage2{
+    background-image: url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+   background-position: 90% 10%;;
+}
+.divy .item4{
+    height: 80%;
+    border: 0px solid green;
+    background-color: rgb(6, 43, 94);
+   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+
+.divz{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(203, 28, 28);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.divz .item5{
+    height: 20%;
+    background-color: rgb(203, 28, 28);
+    border: 0px solid yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.myimage3{
+    background-image: url(./images/icon-study.svg);
+    background-repeat: no-repeat;
+   background-position: 90% 10%;;
+}
+.divz .item6{
+    height: 80%;
+    border: 0px solid green;
+    background-color: rgb(6, 43, 94);
+   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+
+
+
+
+
+.line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 0px solid red;
+    height: 50%;
+    gap: 12px;
+}
+
+.line2 .diva, .line2 .divb, .line2 .divc {
+    border: 0px solid blue;
+    width: 33.33%;
+    
+}
+.diva{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(165, 191, 143);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.diva .item7{
+    height: 20%;
+    background-color: rgb(165, 191, 143);
+    border: 0px solid yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.myimage4{
+    background-image: url(./images/icon-exercise.svg);
+    background-repeat: no-repeat;
+   background-position: 90% 10%;;
+}
+.diva .item8{
+    height: 80%;
+    border: 0px solid green;
+    background-color: rgb(6, 43, 94);
+   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+
+
+.divb{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(76, 46, 94);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.divb .item9{
+    height: 20%;
+    background-color: rgb(76, 46, 94);
+    border: 0px solid yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.myimage5{
+    background-image: url(./images/icon-social.svg);
+    background-repeat: no-repeat;
+   background-position: 90% 10%;;
+}
+.divb .item10{
+    height: 80%;
+    border: 0px solid green;
+    background-color: rgb(6, 43, 94);
+   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+
+.divc{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(213, 193, 114);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.divc .item11{
+    height: 20%;
+    background-color: rgb(213, 193, 114);
+    border: 0px solid yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.myimage6{
+    background-image: url(./images/icon-self-care.svg);
+    background-repeat: no-repeat;
+   background-position: 90% 10%;;
+}
+.divc .item12{
+    height: 80%;
+    border: 0px solid green;
+    background-color: rgb(6, 43, 94);
+   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+
+  .img1{
+        border-radius: 50%;
+        width: 30%;
+    }
+
+    .mytiny{
+        font-size: 10px;
+        color: white;
+    }
+    .mybig{
+        font-size: 30px;
+        color: white; 
+    }
+
+
+    .mover{
+        display: flex;
+        justify-content: space-between;
+    }
+    .upme{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .litme{
+        font-size: 10px;
+    }
+
+    .ham{
+        display: none;
+    }
+    .newham{
+        display: block;
+    }
+    .grider{
+        display: flex;
+        flex-direction: column;
+    }
+    .blasty{
+      font-size: 22px;
+    }
+     /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+    
+}
+
+  /*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+        .mydiv{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+           
+            margin: 10% auto;
+            border: 0px solid red;
+            width: 80%;
+            height: 100%;
+            
+        }
+
+        .myfirst{
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            border: 0px solid yellow;
+            width: 100%;
+            height: 30vh;
+            /*
+            background-color: rgb(10, 24, 49);
+            */
+            background-color: rgb(6, 43, 94);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        
+           
+        }
+        .myfirst .div1{
+            
+            height: 65%;
+            border: 0px solid green;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+          
+            
+            background-color: rgb(115, 22, 221);
+            padding: 50px;
+            display: flex;
+           flex-direction: row;
+           align-items: stretch;
+
+          
+          
+          
+        
+          
+        }
+        
+        
+        .myfirst .div2{
+            /*
+            background-color: rgb(10, 24, 49);
+        */  
+        background-color: rgb(6, 43, 94);
+            border: 0px solid green;
+            height: 35%;
+            padding: 30px;
+            
+            color: white;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           
+           border-bottom-left-radius: 25px;
+           border-bottom-right-radius: 25px;
+            /*
+            border-top: 0px solid green;
+          */
+        }
+        .mysecond{
+            border: 0px solid green;
+            width: 100%;
+            height: 64vh;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .line1{
+            display: flex;
+            flex-direction: column;
+           
+            border: 0px solid blue;
+            height: 100%;
+            gap: 12px;
+        }
+        
+        .line1 .divx, .line1 .divy, .line1 .divz {
+            border: 0px solid blue;
+            width: 100%;
+            height: 40vh;
+            
+        }
+        
+        .divx{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(191, 157, 143);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divx .item1{
+            height: 20%;
+            background-color: rgb(191, 157, 143);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage{
+            background-image: url(./images/icon-work.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divx .item2{
+            height: 80%;
+            border: 0px solid green;
+           background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        
+        
+        
+        .divy{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(143, 184, 191);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divy .item3{
+            height: 20%;
+            background-color: rgb(143, 184, 191);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage2{
+            background-image: url(./images/icon-play.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divy .item4{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        .divz{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(203, 28, 28);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divz .item5{
+            height: 20%;
+            background-color: rgb(203, 28, 28);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage3{
+            background-image: url(./images/icon-study.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divz .item6{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        
+        
+        
+        
+        .line2{
+            display: flex;
+            flex-direction: column;
+           
+            border: 0px solid red;
+            height: 100%;
+            gap: 12px;
+        }
+        
+        .line2 .diva, .line2 .divb, .line2 .divc {
+            border: 0px solid blue;
+            width: 100%;
+            height: 40vh;
+            
+        }
+        .diva{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(165, 191, 143);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .diva .item7{
+            height: 20%;
+            background-color: rgb(165, 191, 143);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage4{
+            background-image: url(./images/icon-exercise.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .diva .item8{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        
+        .divb{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(76, 46, 94);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divb .item9{
+            height: 20%;
+            background-color: rgb(76, 46, 94);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage5{
+            background-image: url(./images/icon-social.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divb .item10{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        .divc{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(213, 193, 114);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divc .item11{
+            height: 20%;
+            background-color: rgb(213, 193, 114);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage6{
+            background-image: url(./images/icon-self-care.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divc .item12{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+
+        .ham{
+            display: block;
+        }
+        .newham{
+            display: none;
+        }
+        .centero{
+            text-align: center
+        }
+        .img1{
+            border-radius: 50%;
+            width: 35%;
+        }
+        .grider{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .upme{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .blaster{
+            align-self: center;
+        }
+    }
+    
+    @media screen and (min-width : 0px) and (max-width : 767px){
+       .mydiv{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+           
+            margin: 10% auto;
+            border: 0px solid red;
+            width: 96%;
+            height: 60vh;
+            
+        }
+
+        .myfirst{
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            border: 0px solid yellow;
+            width: 100%;
+            height: 200px;
+            /*
+            background-color: rgb(10, 24, 49);
+            */
+            background-color: rgb(6, 43, 94);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        
+           
+        }
+        .myfirst .div1{
+            
+            height: 55%;
+            border: 0px solid green;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+          
+            
+            background-color: rgb(115, 22, 221);
+            padding: 20px;
+            display: flex;
+           flex-direction: row;
+           align-items: stretch;
+
+          
+          
+          
+        
+          
+        }
+        
+        
+        .myfirst .div2{
+            /*
+            background-color: rgb(10, 24, 49);
+        */  
+        background-color: rgb(6, 43, 94);
+            border: 0px solid green;
+            height: 45%;
+            padding: 20px;
+            
+            color: white;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           
+           border-bottom-left-radius: 25px;
+           border-bottom-right-radius: 25px;
+            /*
+            border-top: 0px solid green;
+          */
+        }
+        .mysecond{
+            border: 0px solid green;
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }
+        
+        .line1{
+            display: flex;
+            flex-direction: column;
+           
+            border: 0px solid blue;
+            height: 100%;
+            gap: 12px;
+        }
+        
+        .line1 .divx, .line1 .divy, .line1 .divz {
+            border: 0px solid blue;
+            width: 100%;
+            height: 200px;
+            
+        }
+        
+        .divx{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(191, 157, 143);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divx .item1{
+            height: 20%;
+            background-color: rgb(191, 157, 143);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage{
+            background-image: url(./images/icon-work.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divx .item2{
+            height: 80%;
+            border: 0px solid green;
+           background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        
+        
+        
+        .divy{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(143, 184, 191);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divy .item3{
+            height: 20%;
+            background-color: rgb(143, 184, 191);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage2{
+            background-image: url(./images/icon-play.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divy .item4{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        .divz{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(203, 28, 28);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divz .item5{
+            height: 20%;
+            background-color: rgb(203, 28, 28);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage3{
+            background-image: url(./images/icon-study.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divz .item6{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        
+        
+        
+        
+        .line2{
+            display: flex;
+            flex-direction: column;
+           
+            border: 0px solid red;
+            height: 100%;
+            gap: 12px;
+        }
+        
+        .line2 .diva, .line2 .divb, .line2 .divc {
+            border: 0px solid blue;
+            width: 100%;
+            height: 200px;
+            
+        }
+        .diva{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(165, 191, 143);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .diva .item7{
+            height: 20%;
+            background-color: rgb(165, 191, 143);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage4{
+            background-image: url(./images/icon-exercise.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .diva .item8{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        
+        .divb{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(76, 46, 94);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divb .item9{
+            height: 20%;
+            background-color: rgb(76, 46, 94);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage5{
+            background-image: url(./images/icon-social.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divb .item10{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+        
+        
+        .divc{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(213, 193, 114);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .divc .item11{
+            height: 20%;
+            background-color: rgb(213, 193, 114);
+            border: 0px solid yellow;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .myimage6{
+            background-image: url(./images/icon-self-care.svg);
+            background-repeat: no-repeat;
+           background-position: 90% 10%;;
+        }
+        .divc .item12{
+            height: 80%;
+            border: 0px solid green;
+            background-color: rgb(6, 43, 94);
+           border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 30px;
+            color: white;
+        }
+
+        .ham{
+            display: block;
+        }
+        .newham{
+            display: none;
+        }
+        .centero{
+            text-align: center
+        }
+        .img1{
+            border-radius: 50%;
+            width: 35%;
+        }
+        .grider{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .upme{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .blaster{
+            align-self: center;
+        } 
+    }
+
+    @media screen and (min-width : 0px) and (max-width : 320px){
+
+        .blasty{
+            font-size: 15px;
+          }
+    }
